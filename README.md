@@ -2,16 +2,6 @@
 
 This repository provides all the necessary resources to build and implement a low-cost experimental setup for investigating free fall motion using an Arduino Uno, infrared photogate, and spreadsheet-based data acquisition via PLX-DAQ. Designed with a strong educational focus, this hands-on project supports a STEM-oriented approach to teaching kinematics.
 
-##  Project Overview
-
-This experimental setup was developed as part of an introductory physics course at the University of São Paulo (USP), São Carlos campus. It allows students to:
-
-- Predict the role of mass in free fall.
-- Collect experimental data in real time.
-- Reflect on results using graphical analysis.
-- Correct misconceptions related to gravitational acceleration.
-
-The setup was well-received by students and enhanced their motivation and conceptual understanding.
 
 ## Repository Contents
 
@@ -20,8 +10,6 @@ The setup was well-received by students and enhanced their motivation and concep
 - `Supplementary material.pdf`: Construction details for the photogate, circuit diagrams, experimental procedures, and additional documentation.
 
 ## Requirements
-
-
 
 - **Software**
   - Arduino IDE
