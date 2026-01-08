@@ -143,6 +143,24 @@ void loop()
             option = 100;
             break;
 
+            case 'R':
+            digitalWrite(LED, HIGH);
+            
+            for (i = 0; i < 19; i++)
+            {
+                Serial.print((T[i] - T[0]) / 1000000, 4);
+                Serial.print(",");
+                Serial.println(i * 0.0193, 4);   
+            }    
+                Serial.println("**********************");
+                Serial.println("**********************");
+                
+                digitalWrite(LED, LOW);
+                option = 100;       
+                  break;
+
+            
+
         case 'E':       //************RECEIVING PARAMETERS******************
             option = 100;
             break;
@@ -150,4 +168,4 @@ void loop()
         default:
             delay(1);                
     }
-}   
+}  
